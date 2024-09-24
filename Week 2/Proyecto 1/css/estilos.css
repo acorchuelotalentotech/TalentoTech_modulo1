@@ -1,0 +1,40 @@
+.caja{
+    width:   50%;
+    height:  50%;
+    padding:  30px;
+    margin:   50px;
+    border:    5px solid green;
+    background-color: blueviolet;
+}
+.contenedor{
+    display:flex;
+    justify-content: space-around;
+    width:   500px;
+    height:  500px;
+    padding:  30px;
+    margin:   50px;
+    border:    5px solid rgb(64, 0, 128);
+    background-color: rgb(129, 129, 203);
+}
+.item{
+    width: 50%;
+    height: 200px;
+    background-color: lightblue;
+}
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.grid-item{
+    background-color: rgb(174, 144, 238);
+    padding: 20px;
+}
+
+@media(max-width; 600PX)
+{
+    .contenedor{
+        flex-direction: column;
+    }
+}

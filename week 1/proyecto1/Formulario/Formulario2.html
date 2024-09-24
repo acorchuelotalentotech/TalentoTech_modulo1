@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario básico</title>
+</head>
+
+
+<style>
+    h2{
+        color:rgb(55, 44, 35);
+    }
+    label{
+        color:red;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #nombre-label {
+        color: #0056b3; /* Cambia color solo para este label */
+    }
+    
+</style>
+<body>
+    <h2>Formulario de Contacto</h2>
+
+    <form action="/enviar" method="post">
+        
+         <!-- Campo de texto para el nombre -->
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+
+        <!-- Campo de email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <!-- Campo de teléfono -->
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+        
+        <!-- Campo de selección (dropdown) -->
+        <label for="asunto">Asunto:</label><br>
+        <select id="asunto" name="asunto">
+            <option value="consulta">Consulta</option>
+            <option value="soporte">Soporte</option>
+            <option value="otro">Otro</option>
+            <option value="carros">Carros</option>
+        </select><br><br>
+
+        <!-- Área de texto -->
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br><br>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
