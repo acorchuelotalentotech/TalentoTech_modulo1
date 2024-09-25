@@ -1,4 +1,3 @@
-
 /*configuracion cajas internas*/
 .caja{
     width:   50%;
@@ -9,6 +8,7 @@
     border-color: rgb(80, 229, 16);
     background-color: blueviolet;
 }
+/*configuracion contenedor principal*/
 .contenedor{
     display:flex;
     justify-content: space-around;
