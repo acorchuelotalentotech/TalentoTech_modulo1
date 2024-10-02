@@ -25,14 +25,15 @@ h1 {
     width: auto;
     height:  auto;
     padding:  10px;
-    margin:   5px;
-    border:    5px solid rgb(8, 178, 11);
-    background-color: rgb(129, 129, 203);
+    margin: 5px;
+    border: 5px solid rgb(8, 178, 11);
+    border-radius: 2%;
+    background-color: rgb(65, 65, 65);
 }
 
 .movie {
     align-items: center;
-    background-color: rgb(233, 152, 152);
+    background-color: rgb(141, 215, 238);
     border: 5px solid black;
     border-radius: 5%;
     margin-bottom: 5%;
