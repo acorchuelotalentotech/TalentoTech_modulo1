@@ -40,17 +40,23 @@ saludar("enrique");
 //quadrado(6);
 //quadrado(5);
 //quadrado(9);
-let suma = (quadrado(5)+quadrado(4)+quadrado(3));
+let suma = (quadrado(1)+quadrado(1)+quadrado(1));
 console.log(suma);
 
-let num = 0;
-for(let i = 0; i =< 100; ){
-    num = mum + 1;
-}
 */
-prom = 0
-i = 1
-while(i<=10){
-    prom *=i
+let num = ;
+/*
+for(let i = 1; i <= 12; i++){
+    num *=i;    
+    console.log(i);
+    console.log(num);
 }
-console.log(prom);
+console.log(num);
+*/
+i = 1;
+while(i<=50){
+    num *;
+    console.log(i);
+    console.log(num);
+}
+
